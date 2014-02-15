@@ -1,0 +1,27 @@
+{
+  "version": "0.1",
+  "name": "Twitter Client",
+  "description": "My Template",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icons/icon_128.png"
+  },
+  "developer": {
+    "name": "you",
+    "url": "http://example.com"
+  },
+  "installs_allowed_from": ["*"],
+
+  "permissions": {
+      "systemXHR": {
+        "description": "for OAuth"
+      }
+  },
+
+  "messages": [
+    { "alarm": "/index.html" }
+  ],
+  
+  "default_locale": "en",
+  "type": "privileged"
+}
